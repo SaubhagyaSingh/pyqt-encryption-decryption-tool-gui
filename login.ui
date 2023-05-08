@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QPushButton:hover{
+background-color:rgb(30, 30, 30);
+border-radius:10px;
+padding-left:5px;
+padding-right:5px;	
+}
+
+QPushButton:pressed{
+background-color:rgb(0, 36, 107);
+border-radius:10px;
+padding-left:5px;
+padding-right:5px;	
+}
+
+
+</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>-10</y>
+     <width>1091</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>i6.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>160</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Log In&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>500</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:3px solid rgb(255, 255, 255);
+border-radius:20px;
+color:rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>610</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:50px;
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>i1.jpeg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>340</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(0, 0, 0);
+border:none;
+border-bottom:2px solid rgb(188, 188, 188);
+color:rgb(255, 255, 255);
+padding-bottom:9px;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>150</y>
+     <width>381</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:50px;
+background-color:rgb(0, 0, 0);
+border:2px solid rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb1">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>250</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(0, 0, 0);
+border:none;
+border-bottom:2px solid rgb(188, 188, 188);
+color:rgb(255, 255, 255);
+padding-bottom:9px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>User Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b1">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>420</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>New User ? Signup Now!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>260</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>avatar-svgrepo-com.svg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>350</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>password-lock-svgrepo-com.svg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>tb1</zorder>
+  <zorder>tb2</zorder>
+  <zorder>b2</zorder>
+  <zorder>b1</zorder>
+  <zorder>label</zorder>
+  <zorder>label_6</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

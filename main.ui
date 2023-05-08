@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1061</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>i7.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>871</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>ISOCT3</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:50px;
+background-color:rgb(0, 0, 0);
+border:2px solid rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>180</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);
+background-color:rgb(0, 0, 0);
+border:3px solid rgb(0, 255, 0)</string>
+   </property>
+   <property name="text">
+    <string>CEASAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>70</y>
+     <width>741</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nirmala UI Semilight</family>
+     <pointsize>22</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #39FF14;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Choose an Encryption/Decryption Method&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>270</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);
+background-color:rgb(0, 0, 0);
+border:3px solid rgb(0, 255, 0)</string>
+   </property>
+   <property name="text">
+    <string>RAILFENCE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>360</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);
+background-color:rgb(0, 0, 0);
+border:3px solid rgb(0, 255, 0)</string>
+   </property>
+   <property name="text">
+    <string>RSA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p4">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>450</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);
+background-color:rgb(0, 0, 0);
+border:3px solid rgb(0, 255, 0)</string>
+   </property>
+   <property name="text">
+    <string>DEFFIE HELLMAN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p5">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>540</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);
+background-color:rgb(0, 0, 0);
+border:3px solid rgb(0, 255, 0)</string>
+   </property>
+   <property name="text">
+    <string>HASHING</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>150</y>
+     <width>421</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);
+background-color:rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
+█░░║║║╠─║─║─║║║║║╠─░░█
+█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="i1">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>360</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(0, 0, 0);
+border:none;
+border:2px solid rgb(188, 188, 188);
+color:rgb(255, 255, 255);
+padding-bottom:9px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>INPUT</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="i3">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>360</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(0, 0, 0);
+border:none;
+border:2px solid rgb(188, 188, 188);
+color:rgb(255, 255, 255);
+padding-bottom:9px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>KEY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="i2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>580</y>
+     <width>531</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nirmala UI Semilight</family>
+     <pointsize>20</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+border:2px solid rgb(255, 255, 255);
+background-color:rgb(0, 0, 0);
+border-radius:40px;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Result&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c1">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>440</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: rgb(0, 255, 0);
+background-color:rgb(0, 0, 0);
+border:1px solid rgb(0, 255, 0)
+}
+QPushButton:checked
+{
+border:3px solid rgb(0, 76, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>ENCRYPT</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>500</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: rgb(0, 255, 0);
+background-color:rgb(0, 0, 0);
+border:1px solid rgb(0, 255, 0)
+}
+QPushButton:checked
+{
+border:3px solid rgb(0, 76, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>DECRYPT</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="new.qrc"/>
+ </resources>
+ <connections/>
+</ui>
